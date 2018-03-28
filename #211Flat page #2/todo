@@ -1,0 +1,44 @@
+//git - ścieżka, consola
+//git - commity po neotericowemu
+
+//groups classes - prawie to samo wszędzie
+//.logo - to samo
+//klasy zamiast id
+//Listy w footerze
+//bground
+//font-weight: bold;
+//bootstrap
+//style (search.less): indents
+
+COMMIT MESSAGES FORMAT:
+Why?
+allow generating CHANGELOG.md by script
+allow ignoring commits by git bisect (not important commits like formatting, style)
+provide better information when browsing the history of commits
+
+Commit message format:
+A commit message consists of a header, body (optional) and footer (optional). 
+The header has a type, scope (optional) and subject in imperative:
+
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+
+
+The header is mandatory, example below of required entry format:
+
+<type>(): <subject>
+
+Types:
+feat (new feature)
+fix (bug fix)
+docs (changes to documentation)
+style (formatting, missing semicolons, etc; no code change)
+refactor (refactoring of production code - that not relates directly to feature or fix)
+test (adding missing tests, refactoring tests; no production code change)
+chore (updating grunt tasks etc; no production code change, other things)
+
+As main types we propose FEAT, FIX and CHORE, others are up to you for usage.
+
