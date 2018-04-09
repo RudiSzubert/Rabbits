@@ -1,0 +1,300 @@
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sectionOne {
+    display: block;
+    width: 100%;
+    height: 900px;
+    float: left;
+}
+
+.blueLine {
+    background: #007bff;
+    height: 10px;
+}
+
+.grayLine {
+    background: #d9d9d9;
+    height: 10px;
+}
+
+.grayBackground {
+    background: #333333;
+    height: 330px;
+}
+
+.darkBlue {
+    margin-top: 80px;
+    background: #3366ff;
+    height: 150px;
+}
+
+.lightBlue {
+    background: #00b8e6;
+    height: 350px;
+}
+
+.lightGray {
+    background: #EFEFEF;
+    height: 400px;
+}
+
+.whiteText {
+    color: white;
+    font-size: 11px;
+}
+
+.buttonUp .nav-item{
+    margin-top: -10px;
+    float: left;
+    display: inline-block;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    margin-left: -20px;
+    margin-right: 130px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: auto;
+    background: #333333;
+    opacity: .9;
+}
+
+.dropdown-item {
+    font-size: 11px;
+    color: white;
+}
+
+.paragraph {
+    float: left;
+    display: inline-block;
+}
+
+.paragraph p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.widerPara {
+    width: 70%;
+}
+
+.centerAlign {
+    text-align: center;
+    margin-left: 150px;
+    padding: 60px 0;
+}
+
+.image {
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+
+.picture {
+    float: left;
+    display: inline-block;
+    margin-right: 50px;
+    width: 10%;
+}
+.images {
+    margin: 25px 0 40px 215px;
+}
+
+.pencil {
+    margin-top: -110px;
+    margin-left: 670px;
+}
+
+.marginTop {
+    margin-top: 530px;
+}
+
+.table {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    font-size: 12px;
+    background: #ebebe0;
+    margin: 20px;
+}
+
+.lessWidth {
+    width: 50%;
+    margin: 50px 0;
+}
+
+td:nth-child(2) {
+    background: #e0e0d1;
+}
+
+.twoParagraphs {
+    margin-top: 160px;
+    margin-bottom: -20px;
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+
+.bigData {
+    text-align: left;
+    float: left;
+    display: inline-block;
+    width: 30%;
+    margin-left: 80px;
+}
+
+.smallParagraph {
+    text-align: center;
+}
+
+.roundPicture {
+    margin-bottom: 40px;
+}
+
+.higher {
+    height: 400px;
+}
+
+.wreckingBall {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ball {
+    margin-top: -160px;
+    opacity: .8;
+}
+
+.logos {
+    margin-top: 320px;
+}
+
+.logo {
+    margin-right: 130px;
+}
+
+.centerPara {
+    margin: 40px;
+}
+
+.goDown {
+    margin-top: 200px;
+    height: 210px;
+}
+
+.upLeft {
+    float: left;
+    display: inline-block;
+    width: 35%;
+    margin: 20px 0 20px 140px;
+    text-align: left;
+}
+.allMargin {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.marginLeft {
+    margin-left: 180px;
+}
+
+.marginBottom {
+    margin-bottom: -150px;
+}
+
+.smaller {
+    height: 230px;
+}
+
+.shade {
+    height: 270px;
+    width: 270px;
+    margin: 0;
+    border: none;
+    float: left;
+}
+
+.circles {
+    text-align: center;
+    color: white;
+    margin: 50px 10px;
+}
+
+.circles p {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.styleBolt {
+    margin: -40px 0 70px 140px;
+}
+
+.styleCup {
+    margin: -330px 0 0 780px;
+}
+
+.lastSection {
+    margin-top: 400px;
+    height: 350px;
+}
+
+.lastButton {
+    font-weight: bold;
+    width: 15%;
+    margin-left: 50px;
+}
+
+.footer {
+    margin-top: 420px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li a {
+    padding: 0;
+}
+
+.footer ul li a:hover {
+    font-weight: bold;
+}
+
+.centerMenu {
+    margin: 20px;
+}
+
+.moreSpace {
+    padding: 25px;
+}
+
+.socialMedia {
+    padding: 2px;
+}
+
+.image-row td {
+    position: relative;
+    overflow: visible;
+    text-align: center;
+}
+
+.image-row td > img {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
